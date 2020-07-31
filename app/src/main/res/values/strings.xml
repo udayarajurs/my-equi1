@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EQUI</string>
+    <string name="student_continent">Student Continent</string>
+    <string name="get_stared">Get Stared</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="login_with_register_mobile">Login with Mobile Number</string>
+    <string name="register_or_login_using">Register or Login using</string>
+    <string name="or">-------------------------OR-------------------------</string>
+    <string name="by_continuing_you_agree_to_equi_terms_amp_conditions_n_and_privacy_policy"><![CDATA[By continuing, you agree to EQUi Terms & Conditions  and Privacy Policy]]></string>
+    <string name="login_with_your_mobile_number"><b>Login with your Mobile number</b></string>
+    <string name="_91_enter_the_phone_number">91+ Enter the phone number</string>
+    <string name="login_with_g_mail">login with G-mail</string>
+    <string name="get_otp">Get Otp</string>
+    <string name="phone_icon">Phone_icon</string>
+    <string name="change">Change?</string>
+    <string name="unlock_icon">unlock_icon</string>
+    <string name="enter_the_otp">Enter the OTP</string>
+    <string name="submit">Submit</string>
+    <string name="phone_number"><b><u></u>1234567890</b></string>
+    <string name="enter_the_otp_received_on_your_mobile">Enter the OTP received on your mobile</string>
+    <string name="life_ambition">Life Ambition</string>
+    <string name="enter_your_life_ambition">Enter Your Life Ambition</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="aspiration">Aspiration</string>
+
+</resources>

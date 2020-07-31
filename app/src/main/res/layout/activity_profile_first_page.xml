@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".LoginActivity.ProfileFirstPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="18"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Add_Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:src="@drawable/ic_user_image_add"
+            app:civ_border_color="#00000000"
+            app:civ_border_width="2dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <EditText
+            android:layout_width="267dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="32dp"
+            android:autofillHints=""
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:hint="User Name"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/Eduction_autoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="13sp"
+            android:padding="15dp"
+            android:layout_marginRight="30dp"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/box"
+            android:hint="Eduction"
+            android:drawableRight="@drawable/ic_arrow_drop_down" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/Aspiration_autoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="30dp"
+            android:padding="15dp"
+            android:layout_marginRight="30dp"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/box"
+            android:hint="@string/aspiration"
+            android:drawableRight="@drawable/ic_arrow_drop_down" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/Hobbies_autoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:textSize="13sp"
+            android:layout_marginLeft="0dp"
+            android:drawableEnd="@drawable/ic_arrow_drop_down"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/box"
+            android:hint="@string/hobbies"
+            android:drawableRight="@drawable/ic_arrow_drop_down" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="27"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="72dp"
+            android:background="#0E30EA"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

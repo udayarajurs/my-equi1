@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="54"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/buttonGoStraight"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/register_or_login_using" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/google_Sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round"
+            android:drawableStart="@drawable/ic_google_logo"
+            android:drawableLeft="@drawable/ic_google_logo"
+            android:paddingStart="34dp"
+            android:paddingLeft="62dp"
+            android:paddingEnd="45dp"
+            android:paddingRight="45dp"
+            android:text="@string/sign_up_with_google"
+            android:textAllCaps="false"
+            android:textColor="#040404" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/or" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="11"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/Phone_Otp_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="161dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FF9800"
+            android:textSize="15sp"
+            android:background="#0000"
+            android:text="@string/login_with_register_mobile"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <View
+           android:id="@+id/line4"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="0dp"
+           android:background="@android:color/darker_gray" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="10dp"
+           android:gravity="center"
+           android:text="@string/by_continuing_you_agree_to_equi_terms_amp_conditions_n_and_privacy_policy"
+           android:textColor="#000000" />
+
+   </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>
